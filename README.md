@@ -8,7 +8,11 @@
 
 [1º Parte - Docker básico](/docker_basico/readme.md)
 
+  
+
 [2º Parte - Docker imágenes](/docker_imagenes/readme.md)
 
 
+
+Trabajos realizados por **Javier Viesca Tuñón**
 
