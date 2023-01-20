@@ -14,7 +14,7 @@
 
   
 
-[3º Parte - Docker almacenamiento](/docker_amacenamiento/readme.md)
+[3º Parte - Docker almacenamiento](/docker_almacenamiento/readme.md)
 
 
 
