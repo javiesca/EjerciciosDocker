@@ -110,7 +110,7 @@ docker network create -d bridge red1
 #### 2.Crea el contenedor de la base de datos conectado a la red que has creado. La base de datos se debe configurar para crear una base de dato y un usuario. Además el contenedor debe utilizar almacenamiento (volúmenes o bind mount) para guardar la información. Puedes seguir la documentación de mariadb o la de PostgreSQL. 
 
 ```
-docker run -d --name myMariadb --network red1 -v /opt/mysql_javi:/var/lib/mysql -e MYSQL_DATABASE=cosas -e MYSQL_USER=javi -e MYSQL_PASSWORD=temporal -e MYSQL_ROOT_PASSWORD=temporal mariad
+docker run -d --name myMariadb --network red1 -v /opt/mysql_javi:/var/lib/mysql -e MYSQL_DATABASE=cosas -e MYSQL_USER=javi -e MYSQL_PASSWORD=temporal -e MYSQL_ROOT_PASSWORD=temporal mariadb
 ```
 
 ![image-20230127101005700](./assets/image-20230127101005700.png)
@@ -123,12 +123,12 @@ docker run -d --name myNextCloud -p 8080:80 --network red1 -v nextcloud:/var/www
 
 ![image-20230127102008924](./assets/image-20230127102008924.png)
 
-#### 4.Accede a la aplicación usando un navegador web. 
 
-![image-20230127102043387](./assets/image-20230127102043387.png)
+
+#### 4.Accede a la aplicación usando un navegador web. 
 
 El documento debe contener, además, los siguientes pantallazos: 
 
-- Pantallazo con la instrucción para crear el contenedor de la base de datos. 
-- Pantallazo con la instrucción para crear el contenedor de la aplicación. 
-- Pantallazo donde se ve el acceso a la aplicación desde un navegador web.
+![image-20230130140110556](./assets/image-20230130140110556.png)
+
+![image-20230127102043387](./assets/image-20230127102043387.png)
